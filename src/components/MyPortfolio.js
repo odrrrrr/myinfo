@@ -76,12 +76,12 @@ const MyPortfolio = () => {
           <Fade right>
             <div>
               <h2>#아날로그 알람시계 페이지</h2>
-              <p>- 처음 리액트로 제작한 사이트</p>
-              <p>- 모바일 최적화</p>
-              <p>- 알람구현</p>
-              <p>- styled-component 주로 사용</p>
+              <p>■- 처음 리액트로 제작한 사이트</p>
+              <p>■- 모바일 최적화</p>
+              <p>■- 알람구현</p>
+              <p>■- styled-component 주로 사용</p>
               <p>
-                깃허브 주소 :
+                깃허브 :
                 <a
                   href="https://github.com/odrrrrr/wakeAbird"
                   target="_blank"
@@ -91,7 +91,7 @@ const MyPortfolio = () => {
                 </a>
               </p>
               <p>
-                사이트 주소 :
+                사이트 :
                 <a
                   href="https://www.wakeabird.com"
                   target="_blank"
@@ -107,28 +107,17 @@ const MyPortfolio = () => {
           <Fade left>
             <div>
               <h2>#포스트 블로그 페이지</h2>
-              <p>- 처음 리액트로 제작한 사이트</p>
-              <p>- 모바일 최적화</p>
-              <p>- 알람구현</p>
-              <p>- styled-component 주로 사용</p>
+              <p>■- 프론트엔드 백엔드 프로젝트</p>
+              <p>■- 로그인,회원가입,로그아웃 구현</p>
+              <p>■- 게시글 작성,삭제,수정,이미지 업로드,페이지네이션 구현</p>
               <p>
-                깃허브 주소 :
+                깃허브 :
                 <a
-                  href="https://github.com/odrrrrr/wakeAbird"
+                  href="https://github.com/odrrrrr/postBlog"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://github.com/odrrrrr/wakeAbird
-                </a>
-              </p>
-              <p>
-                사이트 주소 :
-                <a
-                  href="https://www.wakeabird.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://wakeabird.com
+                  https://github.com/odrrrrr/postBlog
                 </a>
               </p>
             </div>
