@@ -6,6 +6,7 @@ import Responsive from './common/Responsive';
 import { IoDocumentsOutline } from 'react-icons/io5';
 import wakeabird from '../images/wakeabird.jpg';
 import postBlog from '../images/postBlog.jpg';
+import suboxReact from '../images/suboxReact.jpg';
 import Fade from 'react-reveal/Fade';
 const MyPortfolioBlock = styled(Responsive)`
   width: 80%;
@@ -123,6 +124,38 @@ const MyPortfolio = () => {
             </div>
           </Fade>
           <img src={postBlog} alt="none" />
+        </div>
+        <div className="rightWrapper">
+          <img src={suboxReact} alt="none" />
+          <Fade right>
+            <div>
+              <h2>#사이트 React 클론</h2>
+              <p>■- 기존 html 로 작성된 subox 사이트 React 사용하여 재구현</p>
+              <p>■- 모바일 최적화</p>
+              <p>■- 상태관리 라이브러리</p>
+              <p>■- styled-component 주로 사용</p>
+              <p>
+                깃허브 :
+                <a
+                  href="https://github.com/odrrrrr/suboxReact"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://github.com/odrrrrr/suboxReact
+                </a>
+              </p>
+              <p>
+                사이트 :
+                <a
+                  href="https://competent-babbage-f83d43.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://competent-babbage-f83d43.netlify.app
+                </a>
+              </p>
+            </div>
+          </Fade>
         </div>
       </MyProfileRightPart>
     </MyPortfolioBlock>
